@@ -36,7 +36,15 @@ const BookingForm = () => {
                 </div>
                 <div className="form-group">
                     <label htmlFor="date">Tanggal Acara</label>
-                    <input type="date" id="date" value={formData.date} onChange={handleChange} required suppressHydrationWarning />
+                    <input
+                        type="date"
+                        id="date"
+                        value={formData.date}
+                        onChange={handleChange}
+                        min={new Date().toLocaleDateString('en-CA')}
+                        required
+                        suppressHydrationWarning
+                    />
                 </div>
                 <div className="form-group">
                     <label htmlFor="message">Pesan / Detail Acara</label>
