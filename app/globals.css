@@ -815,7 +815,7 @@ nav.sticky .nav-links a { color: rgba(30, 27, 24, 0.6); }
     position: absolute;
     top: 2rem;
     right: 2rem;
-    font-size: 2rem;
+    font-size: 3.5rem;
     color: var(--text-subtle);
     cursor: pointer;
     transition: var(--transition);
@@ -1309,7 +1309,7 @@ footer {
     .modal-img-3d { max-height: 38vh; }
     .modal-info-3d { padding-right: 0; }
     .modal-info-3d h2 { font-size: 2rem; margin-bottom: 1rem; }
-    .close-modal-3d { top: 1rem; right: 1rem; font-size: 1.5rem; }
+    .close-modal-3d { top: 1rem; right: 1rem; font-size: 2.5rem; }
 
     /* Booking */
     .booking { padding: 5rem 1.5rem; gap: 3rem; }
